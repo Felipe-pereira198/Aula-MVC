@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9f7f3;
+}
+
+.nav_login {
+    display: flex; /* Usar flexbox para alinhar horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #0fa3b1; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+}
+
+.nav_paragraf {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+
+.nav-icon {
+    width: 24px; /* Defina o tamanho da imagem */
+    height: 24px; /* Mantenha a proporção */
+    padding-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.form_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: #f3f2f1da;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_cadfuncionario {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; /* Espaçamento entre as colunas */
+    width: 100%; /* Ou use 1200px, dependendo da largura que deseja */
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    height: auto; /* Ajusta a altura automaticamente */
+    padding: 20px;
+}
+
+.form_cadfuncionario_principal {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    display: row;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.cadfuncionario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: #f3f2f1da;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_login button {
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f1d876;
+    color: #222222;
+    font-weight: bolder;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease; /* Transições ajustadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial do botão */
+}
+
+.btn_login button:hover{
+    background-color: #0fa3b1; /* Cor no hover */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Sombra mais intensa ao passar o cursor */
+    transform: scale(1.2) ; /* Cresce um pouco mais do que antes */
+    color: #f9f7f3;
+}
+
+.btn_login_cli button{
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f1d876;
+    color: #222222;
+    font-weight: bolder;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ea
+}
+
+.btn_login_cli button:hover{
+    background-color: #0fa3b1; /* Cor no hover */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Sombra mais intensa ao passar o cursor */
+    transform: scale(1.2) ; /* Cresce um pouco mais do que antes */
+    color: #f9f7f3;
+}
+
+.btn_login_reserva button{
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f1d876;
+    color: #222222;
+    font-weight: bolder;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease; /* Transições ajustadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial do botão */
+}
+
+.btn_login_reserva button:hover{
+    background-color: #0fa3b1; /* Cor no hover */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Sombra mais intensa ao passar o cursor */
+    transform: scale(1.2) ; /* Cresce um pouco mais do que antes */
+    color: #f9f7f3;
+}
+
+.btn_login_func button{
+    width: 80px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f1d876;
+    color: #222222;
+    font-weight: bolder;
+    transition: background-color 0.5s ease, transform 0.5s ease, box-shadow 0.5s ease; /* Transições ajustadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra inicial do botão */
+}
+
+.btn_login_func button:hover{
+    background-color: #0fa3b1; /* Cor no hover */
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8); /* Sombra mais intensa ao passar o cursor */
+    transform: scale(1.2) ; /* Cresce um pouco mais do que antes */
+    color: #f9f7f3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Espaça os botões igualmente */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+.form_cad_cliente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 500px;
+    height: 420px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: #f3f2f1da;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cadcliente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form_cadreserva {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px; /* Espaçamento entre as colunas */
+    width: 100%; /* Ou use 1200px, dependendo da largura que deseja */
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    height: auto; /* Ajusta a altura automaticamente */
+    padding: 20px;
+}
+
+.form_cadreserva_principal {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    display: row;
+}
+
+.cadreserva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 800px;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: #f3f2f1da;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grade {
+    margin-top: 0px;
+    border-width: 10px;
+    border-radius: 3%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex: 1 0 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.modulo a {
+    text-decoration: none;
+}
+
+.modulo p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+}
