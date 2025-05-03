@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>VoltraHost</title>
-</head>
+</head>cd c/para/sua/pasta/Aula-MVC
+
 <body>
     <nav class="nav_login">
         <p class="nav_paragraf">VoltraHost</p>

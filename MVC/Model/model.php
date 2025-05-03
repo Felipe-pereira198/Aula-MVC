@@ -107,6 +107,7 @@ class hotel  {
         $reservas[]= $reserva;
       }
 
+      
       return $hotel;
     }
     public function cadastrarreserva() {
